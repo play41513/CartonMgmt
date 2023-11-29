@@ -1,0 +1,46 @@
+//---------------------------------------------------------------------------
+
+#include <vcl.h>
+#pragma hdrstop
+
+#include "MSGPackingStatus.h"
+//---------------------------------------------------------------------------
+#pragma package(smart_init)
+#pragma resource "*.dfm"
+TfrmPackingStatus *frmPackingStatus;
+//---------------------------------------------------------------------------
+__fastcall TfrmPackingStatus::TfrmPackingStatus(TComponent* Owner)
+	: TForm(Owner)
+{
+
+}
+//---------------------------------------------------------------------------
+void __fastcall TfrmPackingStatus::FormShow(TObject *Sender)
+{
+	if(plBackPackingInfo->Enabled)
+	{
+		plStatus->Enabled = false;
+		edtKeyIn->SetFocus();
+    }
+	else
+	{
+		plStatus->Enabled = true;
+		BitBtn->SetFocus();
+	}
+}
+//---------------------------------------------------------------------------
+void __fastcall TfrmPackingStatus::moUnFinishExit(TObject *Sender)
+{
+	BitBtn->SetFocus();
+}
+//---------------------------------------------------------------------------
+void __fastcall TfrmPackingStatus::Image1Click(TObject *Sender)
+{
+	ModalResult =	mrCancel;
+}
+//---------------------------------------------------------------------------
+void __fastcall TfrmPackingStatus::Image2Click(TObject *Sender)
+{
+	ModalResult =	mrOk;
+}
+//---------------------------------------------------------------------------

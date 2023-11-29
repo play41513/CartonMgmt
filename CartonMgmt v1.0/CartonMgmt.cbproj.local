@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2019/10/03 16:54:34.203.cpp,C:\Users\max\Documents\RAD Studio\Projects\Unit1.cpp=D:\SourceCode\BCB\BarcodeCarTon\Unit1.cpp</Transaction>
+    <Transaction>2019/10/03 16:54:34.203.h,C:\Users\max\Documents\RAD Studio\Projects\Unit1.h=D:\SourceCode\BCB\BarcodeCarTon\Unit1.h</Transaction>
+    <Transaction>2019/10/03 16:54:34.203.dfm,C:\Users\max\Documents\RAD Studio\Projects\Unit1.dfm=D:\SourceCode\BCB\BarcodeCarTon\Unit1.dfm</Transaction>
+    <Transaction>2019/10/03 16:54:35.048.cbproj,C:\Users\max\Documents\RAD Studio\Projects\Project1.cbproj=D:\SourceCode\BCB\BarcodeCarTon\Project1.cbproj</Transaction>
+    <Transaction>2019/10/07 14:52:00.828.cpp,D:\SourceCode\BCB\BarcodeCarTon\Unit1.cpp=D:\SourceCode\BCB\BarcodeCarTon\main.cpp</Transaction>
+    <Transaction>2019/10/07 14:52:00.828.h,D:\SourceCode\BCB\BarcodeCarTon\Unit1.h=D:\SourceCode\BCB\BarcodeCarTon\main.h</Transaction>
+    <Transaction>2019/10/07 14:52:00.828.dfm,D:\SourceCode\BCB\BarcodeCarTon\Unit1.dfm=D:\SourceCode\BCB\BarcodeCarTon\main.dfm</Transaction>
+    <Transaction>2019/10/07 14:52:39.936.cbproj,D:\SourceCode\BCB\BarcodeCarTon\Project1.cbproj=D:\SourceCode\BCB\BarcodeCarTon\CartonMgmt.cbproj</Transaction>
+    <Transaction>2019/10/09 10:13:18.648.cpp,D:\SourceCode\BCB\BarcodeCarTon\Unit1.cpp=D:\SourceCode\BCB\BarcodeCarTon\String.cpp</Transaction>
+    <Transaction>2019/10/09 10:13:18.648.h,D:\SourceCode\BCB\BarcodeCarTon\Unit1.h=D:\SourceCode\BCB\BarcodeCarTon\String.h</Transaction>
+    <Transaction>2019/10/09 10:13:49.499.cpp,D:\SourceCode\BCB\BarcodeCarTon\String.cpp=D:\SourceCode\BCB\BarcodeCarTon\StringProc.cpp</Transaction>
+    <Transaction>2019/10/09 10:13:49.499.h,D:\SourceCode\BCB\BarcodeCarTon\String.h=D:\SourceCode\BCB\BarcodeCarTon\StringProc.h</Transaction>
+    <Transaction>2019/10/18 09:48:14.322.cpp,D:\SourceCode\BCB\BarcodeCarTon\Unit1.cpp=D:\SourceCode\BCB\BarcodeCarTon\MSGHELP.cpp</Transaction>
+    <Transaction>2019/10/18 09:48:14.322.h,D:\SourceCode\BCB\BarcodeCarTon\Unit1.h=D:\SourceCode\BCB\BarcodeCarTon\MSGHELP.h</Transaction>
+    <Transaction>2019/10/18 09:48:14.322.dfm,D:\SourceCode\BCB\BarcodeCarTon\Unit1.dfm=D:\SourceCode\BCB\BarcodeCarTon\MSGHELP.dfm</Transaction>
+  </Transactions>
+</BorlandProject>

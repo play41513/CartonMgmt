@@ -1,0 +1,27 @@
+//---------------------------------------------------------------------------
+
+#include <vcl.h>
+#pragma hdrstop
+
+#include "MSGPackingStatus.h"
+//---------------------------------------------------------------------------
+#pragma package(smart_init)
+#pragma resource "*.dfm"
+TfrmPackingStatus *frmPackingStatus;
+//---------------------------------------------------------------------------
+__fastcall TfrmPackingStatus::TfrmPackingStatus(TComponent* Owner)
+	: TForm(Owner)
+{
+
+}
+//---------------------------------------------------------------------------
+void __fastcall TfrmPackingStatus::FormShow(TObject *Sender)
+{
+	BitBtn->SetFocus();
+}
+//---------------------------------------------------------------------------
+void __fastcall TfrmPackingStatus::moUnFinishExit(TObject *Sender)
+{
+	BitBtn->SetFocus();
+}
+//---------------------------------------------------------------------------

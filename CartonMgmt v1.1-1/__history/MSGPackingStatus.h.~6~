@@ -1,0 +1,46 @@
+//---------------------------------------------------------------------------
+
+#ifndef MSGPackingStatusH
+#define MSGPackingStatusH
+//---------------------------------------------------------------------------
+#include <Classes.hpp>
+#include <Controls.hpp>
+#include <StdCtrls.hpp>
+#include <Forms.hpp>
+#include <ExtCtrls.hpp>
+#include <Buttons.hpp>
+#include <jpeg.hpp>
+//---------------------------------------------------------------------------
+class TfrmPackingStatus : public TForm
+{
+__published:	// IDE-managed Components
+	TPanel *plStatus;
+	TPanel *Panel2;
+	TPanel *Panel3;
+	TPanel *Panel5;
+	TPanel *Panel35;
+	TMemo *moFinish;
+	TMemo *moStockOut;
+	TPanel *Panel4;
+	TPanel *Panel6;
+	TMemo *moUnFinish;
+	TBitBtn *BitBtn;
+	TPanel *plBackPackingInfo;
+	TImage *Image1;
+	TImage *Image2;
+	TPanel *plPackingInfoTitle;
+	TEdit *edtKeyIn;
+	TPanel *Panel1;
+	TPanel *Panel7;
+	void __fastcall FormShow(TObject *Sender);
+	void __fastcall moUnFinishExit(TObject *Sender);
+	void __fastcall Image1Click(TObject *Sender);
+	void __fastcall Image2Click(TObject *Sender);
+private:	// User declarations
+public:		// User declarations
+	__fastcall TfrmPackingStatus(TComponent* Owner);
+};
+//---------------------------------------------------------------------------
+extern PACKAGE TfrmPackingStatus *frmPackingStatus;
+//---------------------------------------------------------------------------
+#endif
