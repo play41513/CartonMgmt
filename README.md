@@ -3,7 +3,7 @@
 
 ## Program
 
-### CartonMgmt v1.2
+### CartonMgmt v1.3
 - Notices :Copyright(c) 2020 Leno
 - Compiler :Embarcadero RAD Studio 2010 Version 14.0.3615.26342
 - OS :Windows 8 ver6.3 Build 9600
